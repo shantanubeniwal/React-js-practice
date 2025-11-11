@@ -1,0 +1,186 @@
+*{
+  /* margin: 0;
+  padding: 0; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+  border: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0% , 10%);
+  border-radius: 10px;
+}
+.card .card-image{
+  max-width: 60%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+.card .card-title{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
+}
+.card .card-text{
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 30%);
+}
+
+.welcomeMessage{
+  font-size: 2em;
+  padding: 10px;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+  background: hsl(119, 100%, 35%);
+}
+
+.loginPromt{
+  font-size: 2em;
+  padding: 10px;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+  background: hsl(0, 100%, 35%);
+}
+
+/* part -- 6 */
+.list-category{
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background: hsl(185, 100%, 50%);
+}
+.list-items li{
+  list-style: none;
+  font-size: 2em;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
+}
+.list-items li:hover{
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
+}
+
+/* part -- 8 */
+.counter-container{
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+.count-display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.counter-button{
+  height: 50px;
+  width: 150px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(197, 100%, 60%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter-button:hover{
+  box-shadow: 2px 2px 3px #b5b5b5;
+  background-color: hsl(197, 100%, 50%);
+}
+
+.color-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.color-display{
+  height: 200px;
+  width: 200px;
+  border: 5px solid rgba(135, 135, 135, 0.856);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: 0.2s ease;
+}
+input[type="color"]{
+  height: 40px;
+  width: 60px;
+}
+
+
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+/* h1{
+  font-size: 4rem;
+}
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+} */
+.add-button{
+  background-color: hsl(125, 47%, 54%);
+}
+.add-button:hover{
+  background-color: hsl(125, 47%, 44%);
+}
+.delete-button{
+  background-color: hsl(10, 90%, 50%);
+}
+.delete-button:hover{
+  background-color: hsl(10, 90%, 40%);
+}
+.move-button{
+  background-color: hsl(207, 90%, 64%);
+}
+.move-button:hover{
+  background-color: hsl(207, 90%, 54%);
+}
+input[type="text"]{
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+/* ol{
+  padding: 0;
+}
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 80%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+} */
+.text{
+  flex: 1;
+}
+.delete-button , .move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
