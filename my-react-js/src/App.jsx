@@ -29,7 +29,9 @@
 
 // import ToDoList from "./ToDoList";
 
-import UseEffect from "./UseEffect";
+// import UseEffect from "./UseEffect";
+
+import DigitalClock from "./DigitalClock";
 
 function App() {
 
@@ -105,7 +107,10 @@ function App() {
       {/* <ToDoList></ToDoList> */}
 
       {/* part -- 16*/}
-      <UseEffect></UseEffect>
+      {/* <UseEffect></UseEffect> */}
+
+      {/* part -- 17*/}
+      <DigitalClock></DigitalClock>
     </>
   );  
 }
